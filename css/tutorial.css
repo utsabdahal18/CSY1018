@@ -20,14 +20,25 @@ a{
 	color: white;
 }
 section{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 
 }
 .leftsection{
-	display: flexbox;
-	flex-direction: left;
+	
 	
 }
 .rightsection{
-	display: flexbox;
-	flex-direction: right; 
+	
 }
+footer{
+	margin: 15px;
+	padding: 5px;
+	background-color: black;
+}
+.fa{
+	padding: 10px;
+	font-size: 25px;
+	margin: 5px 2px;
+	border-radius: 50%;
