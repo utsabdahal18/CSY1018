@@ -10,6 +10,7 @@ nav ul{
 	display: flex;
 	flex-direction: row;
 	padding: 5px;
+	justify-content: space-around;
 }
 nav ul li{
 	margin: 0px 65px;
@@ -26,10 +27,16 @@ section{
 }
 
 .leftsection{
-	column-count: 3;
-	column-gap: 20px;
-	column-rule-style: solid;
-	column-rule-width: 1px;
+	width: 30%;
+	
+}
+.middlesection{
+	width: 30%;
+
+}
+.rightsection{
+	width: 30%;
+
 }
 
 footer{
@@ -42,3 +49,28 @@ footer{
 	font-size: 25px;
 	margin: 5px 2px;
 	border-radius: 50%;
+}
+@media screen and (max-width: 600px){
+	nav ul{flex-direction:column;}
+	nav ul li{width:96%; margin:1%;padding:1%;}
+	header{
+		width:100%;
+	}
+	section{
+		flex-direction: column;
+		width: 100%;
+	}
+	.leftsection{
+		width:100%;
+	}
+	.middlesection{
+		width:100%;
+	}
+	.rightsection{
+		width:100%;
+	}
+	
+
+
+
+

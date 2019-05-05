@@ -10,6 +10,7 @@ nav ul{
 	display: flex;
 	flex-direction: row;
 	padding: 5px;
+	justify-content: space-around;
 }
 nav ul li{
 	margin: 0px 65px;
@@ -27,17 +28,18 @@ section{
 .leftsection{
 	border-radius: 15px 50px 5px;
 	border: 2px solid black;
-	width: 15px;
-	padding: 15%;
+	width: 40%;
+	padding: 15px;
 }
 .rightsection{
 	border-radius: 15px 50px 5px;
 	border: 2px solid black;
-	width: 10px;
-	padding: 15%;
+	width: 40%;
+	padding: 15px;
 
 }
 footer{
+	text-align: center;
 	margin: 15px;
 	padding: 5px;
 	background-color: black;
@@ -47,3 +49,32 @@ footer{
 	font-size: 25px;
 	margin: 5px 2px;
 	border-radius: 50%;
+}
+@media screen and (max-width: 600px){
+	nav ul{
+		flex-direction:column;
+	}
+	nav ul li{
+		width:96%;
+		margin:1%;
+		padding:1%;
+	}
+	header{
+		width:100%;
+
+	}
+	section{
+		flex-direction: column;
+		
+	}
+	.leftsection{
+		width: 90%;
+
+	}
+	.rightsection{
+		width: 90%;
+	}
+	
+
+	
+

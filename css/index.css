@@ -10,6 +10,7 @@ nav ul{
 	display: flex;
 	flex-direction: row;
 	padding: 5px;
+	justify-content: space-around;
 }
 nav ul li{
 	margin: 0px 65px;
@@ -20,14 +21,23 @@ a{
 	color: white;
 }
 section{
+
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 .leftsection{
-	width: 10%;
+	width: 20%;
 }
+.middlesection{
+	width: 54%;
+}
+.rightsection{
+	width: 20%;
+}
+
 footer{
+	text-align: center;
 	margin: 15px;
 	padding: 5px;
 	background-color: black;
@@ -38,3 +48,32 @@ footer{
 	margin: 5px 2px;
 	border-radius: 50%;
 }
+@media screen and (max-width: 600px){
+	nav ul{
+		flex-direction:column;
+	}
+	nav ul li{
+		width:96%;
+		margin:1%;
+		padding:1%;
+	}
+	header{
+		width:100%;
+
+	}
+	section{
+		flex-direction: column;
+
+		
+	}
+	.leftsection{
+		width: 100%;
+
+	}
+	.middlesection{
+		width: 100%;
+	}
+	.rightsection{
+		width: 100%;
+	}
+
