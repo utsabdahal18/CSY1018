@@ -20,17 +20,38 @@ a{
 	text-decoration: none;
 	color: white;
 }
-section{
 	
+section{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+section p{
+	text-align: justify;
+}
+.leftsection{
+	background-color: lightgrey;
+	width: 45%;
+	border: 60px;
+	padding: 5px;
+
+}
+.rightsection{
+	background-color: lightgrey;
+	width: 45%;
+	border: 60px;
+	padding: 5px;
 }
 footer{
+	text-align: center;
 	margin: 15px;
 	padding: 5px;
 	background-color: black;
-	text-align: center;
 }
 .fa{
+	color: white;
 	padding: 10px;
 	font-size: 25px;
 	margin: 5px 2px;
 	border-radius: 50%;
+}
