@@ -52,8 +52,14 @@ footer{
 	border-radius: 50%;
 }
 @media screen and (max-width: 600px){
-	nav ul{flex-direction:column;}
-	nav ul li{width:96%; margin:1%;padding:1%;}
+	nav ul{
+		flex-direction:column;
+	}
+	nav ul li{
+		width:96%; 
+		margin:1%;
+		padding:1%;
+	}
 	header{
 		width:100%;
 	}
@@ -70,8 +76,4 @@ footer{
 	.rightsection{
 		width:100%;
 	}
-	
-
-
-
-
+}

@@ -60,12 +60,12 @@ footer{
 		flex-direction:column;
 	}
 	nav ul li{
-		width:96%;
-		margin:1%;
-		padding:1%;
+		width: 96%;
+		margin: 1%;
+		padding: 1%;
 	}
 	header{
-		width:100%;
+		width: 100%;
 
 	}
 	section{
@@ -74,8 +74,8 @@ footer{
 	}
 	.leftsection{
 		width: 100%;
-
 	}
 	.rightsection{
 		width: 100%;
 	}
+}
